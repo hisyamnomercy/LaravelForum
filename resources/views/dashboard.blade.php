@@ -10,8 +10,8 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     You're logged in!
-
                 </div>
+                <a href="{{ url('/forum') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Forum</a>
             </div>
         </div>
     </div>
