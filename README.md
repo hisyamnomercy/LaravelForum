@@ -6,5 +6,5 @@ cp .env.example .env
 
 Then create database name "laravelforum"
 
- and run php artisan migrate --seed
+
  </html>
