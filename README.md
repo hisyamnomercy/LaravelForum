@@ -7,4 +7,5 @@ cp .env.example .env
 Then create database name "laravelforum"
 
 Last, run the program
+   Generate App key then refresh the page
  </html>
