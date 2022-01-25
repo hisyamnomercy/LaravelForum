@@ -6,5 +6,5 @@ cp .env.example .env
 
 Then create database name "laravelforum"
 
-
+Last, run the program
  </html>
