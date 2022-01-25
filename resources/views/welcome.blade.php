@@ -158,7 +158,7 @@ body{
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
-    <body>
+    <body background="https://i2.wp.com/news.iium.edu.my/wp-content/uploads/2019/11/uia-hd-pic-1.jpg?w=1024&ssl=1">
       <section class="banner">
        
 
@@ -167,10 +167,13 @@ body{
             <p class="para1">Where IIUM students can discuss anything that may pique
             <br>public interest publicly and exchange messages to socialise with one another.</p>
 
-            <a href="{{ route('login') }}" target="_blank">
+            <a href="{{ route('login') }}" >
               <button type="button"><span></span><b>LOG IN</b></button></a>
               
-            <a href="{{ url('/forum') }}" target="_blank">
+            <a href="{{ url('/register') }}" >
+             <button type="button"><span></span><b>REGISTER<b></button></a>
+
+             <a href="{{ url('/forum') }}" >
              <button type="button"><span></span><b>GUEST MODE<b></button></a>
             </section>
             <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
