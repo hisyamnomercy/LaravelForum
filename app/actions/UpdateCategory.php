@@ -1,8 +1,8 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
-use TeamTeaTime\Forum\Models\Category;
+use App\Models\Category;
 
 class UpdateCategory extends BaseAction
 {

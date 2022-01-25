@@ -1,8 +1,8 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
-use TeamTeaTime\Forum\Models\Thread;
+use App\Models\Thread;
 
 class RenameThread extends BaseAction
 {

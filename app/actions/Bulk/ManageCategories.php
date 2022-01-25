@@ -1,9 +1,9 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions\Bulk;
+namespace App\Actions\Bulk;
 
-use TeamTeaTime\Forum\Actions\BaseAction;
-use TeamTeaTime\Forum\Models\Category;
+use App\Actions\BaseAction;
+use App\Models\Category;
 
 class ManageCategories extends BaseAction
 {

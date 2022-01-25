@@ -1,6 +1,6 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
 use Exception;
 use Illuminate\Support\Facades\DB;

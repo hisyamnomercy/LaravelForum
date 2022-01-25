@@ -1,9 +1,9 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
 use Illuminate\Support\Facades\DB;
-use TeamTeaTime\Forum\Models\Thread;
+use App\Models\Thread;
 
 class DeleteThread extends BaseAction
 {

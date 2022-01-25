@@ -1,10 +1,10 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions\Bulk;
+namespace App\Actions\Bulk;
 
 use Illuminate\Support\Facades\DB;
-use TeamTeaTime\Forum\Actions\BaseAction;
-use TeamTeaTime\Forum\Models\Thread;
+use App\Actions\BaseAction;
+use App\Models\Thread;
 
 class DeleteThreads extends BaseAction
 {

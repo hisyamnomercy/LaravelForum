@@ -1,8 +1,8 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
-use TeamTeaTime\Forum\Models\Post;
+use App\Models\Post;
 
 class UpdatePost extends BaseAction
 {

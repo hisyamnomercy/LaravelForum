@@ -1,9 +1,9 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
 use Illuminate\Support\Facades\DB;
-use TeamTeaTime\Forum\Models\Post;
+use App\Models\Post;
 
 class DeletePost extends BaseAction
 {

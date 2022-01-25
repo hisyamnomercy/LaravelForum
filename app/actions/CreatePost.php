@@ -1,11 +1,11 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions;
+namespace App\Actions;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use TeamTeaTime\Forum\Models\Post;
-use TeamTeaTime\Forum\Models\Thread;
+use App\Models\Post;
+use App\Models\Thread;
 
 class CreatePost extends BaseAction
 {

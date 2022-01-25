@@ -1,10 +1,10 @@
 <?php
 
-namespace TeamTeaTime\Forum\Actions\Bulk;
+namespace App\Actions\Bulk;
 
 use Illuminate\Support\Facades\DB;
-use TeamTeaTime\Forum\Actions\BaseAction;
-use TeamTeaTime\Forum\Models\Post;
+use App\Actions\BaseAction;
+use App\Models\Post;
 
 class DeletePosts extends BaseAction
 {
