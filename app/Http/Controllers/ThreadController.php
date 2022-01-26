@@ -10,7 +10,6 @@ use App\Http\Requests\DeleteThread;
 use App\Http\Requests\MarkThreadsAsRead;
 use App\Http\Requests\RenameThread;
 use App\Http\Requests\RestoreThread;
-use App\Http\Requests\UnlockThread;
 use App\Http\Resources\ThreadResource;
 use App\Models\Category;
 use App\Models\Thread;
