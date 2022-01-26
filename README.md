@@ -5,6 +5,7 @@ composer install<br>
 cp .env.example .env
 
 Then create database name "laravelforum"<br>
+ php artisan key:generate<br>
   php artisan db:seed<br>
 
 php artisan db:seed --class=IiumSeeder<br>
