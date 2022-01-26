@@ -5,19 +5,15 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
-use TeamTeaTime\Forum\Http\Requests\CreateThread;
-use TeamTeaTime\Forum\Http\Requests\DeleteThread;
-use TeamTeaTime\Forum\Http\Requests\LockThread;
-use TeamTeaTime\Forum\Http\Requests\MarkThreadsAsRead;
-use TeamTeaTime\Forum\Http\Requests\MoveThread;
-use TeamTeaTime\Forum\Http\Requests\PinThread;
-use TeamTeaTime\Forum\Http\Requests\RenameThread;
-use TeamTeaTime\Forum\Http\Requests\RestoreThread;
-use TeamTeaTime\Forum\Http\Requests\UnlockThread;
-use TeamTeaTime\Forum\Http\Requests\UnpinThread;
-use TeamTeaTime\Forum\Http\Resources\ThreadResource;
-use TeamTeaTime\Forum\Models\Category;
-use TeamTeaTime\Forum\Models\Thread;
+use App\Http\Requests\CreateThread;
+use App\Http\Requests\DeleteThread;
+use App\Http\Requests\MarkThreadsAsRead;
+use App\Http\Requests\RenameThread;
+use App\Http\Requests\RestoreThread;
+use App\Http\Requests\UnlockThread;
+use App\Http\Resources\ThreadResource;
+use App\Models\Category;
+use App\Models\Thread;
 
 class ThreadController extends BaseController
 {

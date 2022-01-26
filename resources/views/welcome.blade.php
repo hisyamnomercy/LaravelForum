@@ -160,7 +160,16 @@ body{
     </head>
     <body background="https://i2.wp.com/news.iium.edu.my/wp-content/uploads/2019/11/uia-hd-pic-1.jpg?w=1024&ssl=1">
       <section class="banner">
-       
+      <navbar>
+           <div class="nav-links">
+               <ul>
+                    <li><a href="https://twitter.com/iium_su?s=20"><i class="fa fa-fw fa-twitter"></i>TWITTER</a></li>
+                    <li><a href="https://www.facebook.com/IIUMSU/"><i class="fa fa-fw fa-facebook"></i>FACEBOOK</a></li>
+                    <li><a href="http://www.iiumstudentunion.com.my/"><i class="fa fa-fw fa-globe"></i>WEBSITE</li>
+                    <li><a href="https://www.iium.edu.my/contact"><i class="fa fa-fw fa-user"></i>CONTACT</a></li>
+               </ul>
+           </div>
+        </navbar>
 
     <div class="text-box">
             <h1 class="title"><b>IIUM STUDENT FORUM</b></h1>
