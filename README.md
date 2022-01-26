@@ -6,7 +6,10 @@ composer install<br>
 cp .env.example .env<br>
 php artisan key:generate<br>
 Then create database name "laravelforum"<br>
+    
+php artisan migrate:fresh<br>
 
 Last, run the program <br>
+php artisan serve<br>
    
  </html>
