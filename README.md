@@ -4,7 +4,7 @@ git clone https://github.com/hisyamnomercy/LaravelForum.git or download as zip<b
 composer install<br>
 cp .env.example .env
 
-Then create database name "laravelforum"
+Then create database name "laravelforum"<br>
   php artisan db:seed<br>
 
 php artisan db:seed --class=IiumSeeder<br>
