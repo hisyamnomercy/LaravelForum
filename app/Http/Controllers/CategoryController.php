@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
-use TeamTeaTime\Forum\Http\Requests\CreateCategory;
-use TeamTeaTime\Forum\Http\Requests\DeleteCategory;
-use TeamTeaTime\Forum\Http\Requests\UpdateCategory;
-use TeamTeaTime\Forum\Http\Resources\CategoryResource;
-use TeamTeaTime\Forum\Models\Category;
-use TeamTeaTime\Forum\Support\CategoryPrivacy;
+use App\Http\Requests\CreateCategory;
+use App\Http\Requests\DeleteCategory;
+use App\Http\Requests\UpdateCategory;
+use App\Http\Resources\CategoryResource;
+use App\Models\Category;
+use App\Support\CategoryPrivacy;
 
 class CategoryController extends BaseController
 {

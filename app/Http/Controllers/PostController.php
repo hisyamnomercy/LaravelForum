@@ -5,14 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
-use AppHttp\Requests\CreatePost;
-use AppHttp\Requests\DeletePost;
-use AppHttp\Requests\RestorePost;
-use AppHttp\Requests\SearchPosts;
-use AppHttp\Requests\UpdatePost;
-use AppHttp\Resources\PostResource;
-use AppModels\Post;
-use AppModels\Thread;
+use App\Http\Requests\CreatePost;
+use App\Http\Requests\DeletePost;
+use App\Http\Requests\RestorePost;
+use App\Http\Requests\SearchPosts;
+use App\Http\Requests\UpdatePost;
+use App\Http\Resources\PostResource;
+use App\Models\Post;
+use App\Models\Thread;
 
 class PostController extends BaseController
 {
